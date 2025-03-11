@@ -172,3 +172,18 @@ Key feautures : Created an cart page that display the products inside cart using
 
 # Milestone 20 : In this milestone, we will profile page frontend and write an endpoint to receive user data and display.
 Key feautures : Created an Backend endpoint that will sent user data created frontend profile page display profile photo, name and email in one section In another section display address and add an button called "Add address" If there are no address display "No address found". Summary : Created an profile page with the user details like name ,address ,etc.., Tech Stack : Backend - controller - user.js, Frontend - components - AddressCard.jsx, NavBar.jsx, pages - Profile.jsx
+
+# Milestone 21 : In this milestone, we will create an frontend page form for address input.
+Key feautures :
+Create address form frontend page
+Create an state that will store input address
+When we click on add address in profile it should navigate to this form page.
+Summary : Created an addAddress button in profile page to enter user address.
+Tech Stack : Frontend - pages - createAddress.jsx, Profile.jsx
+
+# Milestone 22 : In this milestone, we will create an backend endpoint that will save the address inside user profile in database.
+Key feautures :
+Created an endpoint that will receive the address from address form in frontend
+Add the address to the address array inside user collection.
+Summary : Created an endpoint(post) for createAddress.jsx .
+Tech Stack : Backend - controller - user.js
