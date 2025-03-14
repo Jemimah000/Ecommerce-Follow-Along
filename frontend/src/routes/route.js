@@ -8,4 +8,5 @@ import ProductDetails from "../pages/ProductDetails";
 import Profile from "../pages/Profile";
 import CreateAddress from "../pages/createAddress";
 import SelectAddress from "../pages/SelectAddress";
-export {LoginPage,SignupPage,Home,CreateProduct,MyProducts,Cart,ProductDetails,Profile,CreateAddress,SelectAddress};
+import OrderConfirmation from "../pages/OrderConfirmation";
+export {LoginPage,SignupPage,Home,CreateProduct,MyProducts,Cart,ProductDetails,Profile,CreateAddress,SelectAddress,OrderConfirmation};

@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import {LoginPage,SignupPage,Home,CreateProduct,MyProducts,Cart,ProductDetails,Profile, CreateAddress} from './routes/route.js';
+import {LoginPage,SignupPage,Home,CreateProduct,MyProducts,Cart,ProductDetails,Profile, CreateAddress, OrderConfirmation} from './routes/route.js';
 import SelectAddress from './pages/SelectAddress.jsx';
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/createAddress' element={<CreateAddress/>}/>
         <Route path='/selectAddress' element={<SelectAddress/>}/>
+        <Route path='/orderConfirmaion' element={<OrderConfirmation/>}/>
       </Routes>
       </BrowserRouter>
     </div>
