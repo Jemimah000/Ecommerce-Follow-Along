@@ -187,3 +187,23 @@ Created an endpoint that will receive the address from address form in frontend
 Add the address to the address array inside user collection.
 Summary : Created an endpoint(post) for createAddress.jsx .
 Tech Stack : Backend - controller - user.js
+
+# Milestone 23 : In this milestone, we will make our create an select address page in frontend and we will write product schema for the orders in the backend.
+Key feautures :
+We will add an button inside cart called "Place order"
+We will create an select address page where we will display all the address and ask to select delivery address.
+We will write mongoose schema for storing orders details.
+Summary : If we click the Place order button, It will show all the available address.
+Tech Stack : Frontend - pages - Cart.jsx, SelectAddress.jsx.
+Backend - model - order.js,
+controller - user.js.
+
+# Milestone 24 : In this milestone, we will make our create an order conformation page in frontend where will display products ordering and address selected and total price details.
+Key feautures :
+First we will display all the products we are ordering.
+Next we will display the address user selected to deliver.
+We will display the total value of the cart.
+We will have an place order button at the bottom.
+Summary : We created an order conformation page.
+Tech Stack - Frontend - pages - OrderConfirmation.jsx
+Backend - model - product.js
