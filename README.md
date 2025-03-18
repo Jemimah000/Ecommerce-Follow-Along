@@ -207,3 +207,9 @@ We will have an place order button at the bottom.
 Summary : We created an order conformation page.
 Tech Stack - Frontend - pages - OrderConfirmation.jsx
 Backend - model - product.js
+
+# Milestone 25 : In this milestone, we will create an backend endpoint for place order.
+Key feautures : We had created an endpoint that will receive the products, user, address details. We will get the mail of the user using that you need to retrive the _id of the user. For each product the order will be different with same address. Using order schema you created earlier you will store order details in mongodb order collection. Summary : Created an endpoint for orders. Tech Stack : Backend - model - order.js
+
+# Milestone 26 : In this milestone, we will create an backend endpoint for place order.
+Key feautures : You need to create an endpoint that will receive the user mail. You will get the mail of the user using that you need to retrive the _id of the user. Using that _id you need to get all the orders of that user. Send all the users orders in the response. Summary : Updated an endpoint for orders. Tech Stack : Backend - controller - order.js Frontend - pages - OrderConfirmation.jsx
